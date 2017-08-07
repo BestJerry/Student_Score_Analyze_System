@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-image: url(Drawable/background.jpg);" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Analyze_Score_Controller">
+    <children>
+        <Label layoutX="288.0" layoutY="54.0" text="成绩分析如下">
+            <font>
+                <Font name="AR PL UKai CN" size="24.0" />
+            </font>
+        </Label>
+        <VBox alignment="CENTER_LEFT" layoutX="170.0" layoutY="140.0" spacing="10.0">
+            <children>
+                <Label fx:id="max_min_ave" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="fail" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="pass" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="middle" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="nice" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="wonderful" alignment="CENTER" contentDisplay="CENTER" text="Label">
+                    <font>
+                        <Font name="AR PL UKai CN" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+      <Button disable="true" layoutX="330.0" layoutY="388.0" mnemonicParsing="false" onAction="#close" text="关闭" visible="false">
+         <font>
+            <Font name="AR PL UKai CN" size="18.0" />
+         </font></Button>
+    </children>
+</Pane>

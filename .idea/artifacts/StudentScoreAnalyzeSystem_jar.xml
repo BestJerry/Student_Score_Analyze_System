@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StudentScoreAnalyzeSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudentScoreAnalyzeSystem_jar</output-path>
+    <root id="archive" name="StudentScoreAnalyzeSystem.jar">
+      <element id="module-output" name="StudentScoreAnalyzeSystem" />
+    </root>
+  </artifact>
+</component>

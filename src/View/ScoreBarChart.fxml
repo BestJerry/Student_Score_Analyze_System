@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-image: url(Drawable/background.jpg);" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Score_Bar_Chart_Controller">
+    <children>
+        <BarChart fx:id="barchart" categoryGap="20.0" layoutX="110.0" layoutY="40.0">
+            <xAxis>
+                <CategoryAxis fx:id="categoryAxis" label="分数" side="BOTTOM" tickLabelGap="10.0" tickLength="10.0">
+               <tickLabelFont>
+                  <Font name="AR PL UKai CN" size="14.0" />
+               </tickLabelFont></CategoryAxis>
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="numberAxis" autoRanging="false" label="人数" minorTickCount="1" minorTickLength="1.0" side="LEFT" tickLabelGap="1.0" tickLength="10.0" tickUnit="2.0" upperBound="30.0">
+               <tickLabelFont>
+                  <Font name="AR PL UKai CN" size="14.0" />
+               </tickLabelFont></NumberAxis>
+            </yAxis>
+        </BarChart>
+    </children>
+</Pane>
